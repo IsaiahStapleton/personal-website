@@ -69,6 +69,11 @@
   color: var(--color-light);
 }
 
+.about__content {
+  text-align: center;
+}
+
+
 /*  MEDIA QUERIES (MEDIUM DEVICES)  */
 
 @media screen and (max-width: 1024px) {
@@ -98,10 +103,6 @@
   .about__cards {
       grid-template-columns: 1fr 1fr;
       gap: 1rem;
-  }
-
-  .about__content {
-      text-align: center;
   }
 
   .about__content p {
