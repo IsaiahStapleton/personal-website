@@ -11,7 +11,7 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_3fjfb17', 'template_ky1ucaz', form.current, 'user_641J0AWGxx4qcKi835yDq')
+    emailjs.sendForm('service_h4xdrbe', 'template_325mhe9', form.current, 'H7nHPnz7BJoxwrVUJ')
 
     e.target.reset()
   };
@@ -37,7 +37,7 @@ const Contact = () => {
           </article>
           
         </div>
-        {/* END OF CONTACT OPTIONS */}
+
         <form ref={form} onSubmit={sendEmail}>
           <input type="text" name='name' placeholder='Your Full Name' required />
           <input type="email" name='email' placeholder='Your Email' required />
