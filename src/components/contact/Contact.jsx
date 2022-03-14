@@ -26,16 +26,16 @@ const Contact = () => {
           <article className="contact__option">
             <MdOutlineEmail className='contact__option-icon'/>
             <h4>Email</h4>
-            <h5>isaiahstapleton@gmail.com</h5>
-            <a href="mailto:dummyegator@gmail.com" target="_blank" rel="noreferrer">Send a message</a>
+            <h5>stapletonin@g.cofc.edu</h5>
+            <a href="mailto:stapletonin@g.cofc.edu" target="_blank" rel="noreferrer">Send an email</a>
           </article>
           <article className="contact__option">
             <RiMessengerLine className='contact__option-icon'/>
             <h4>Phone</h4>
             <h5>(603) 866-6567</h5>
-            <a href="https://m.me/ernest.achiever" target="_blank" rel="noreferrer">Send a message</a>
+            <a href="tel:603-866-6567" target="_blank" rel="noreferrer">Call</a>
           </article>
-          
+         
         </div>
 
         <form ref={form} onSubmit={sendEmail}>

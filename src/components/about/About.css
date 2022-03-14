@@ -17,6 +17,10 @@
   margin-top: 2rem;
 }
 
+.about__content p {
+  color: var(--color-white);
+}
+
 
 /*  MEDIA QUERIES (MEDIUM DEVICES)  */
 
