@@ -1,7 +1,7 @@
 import React from 'react'
 import './Contact.css'
 import {MdOutlineEmail} from 'react-icons/md'
-import {RiMessengerLine} from 'react-icons/ri'
+import {AiOutlinePhone} from 'react-icons/ai'
 import { useRef } from 'react';
 import emailjs from 'emailjs-com'
 
@@ -30,7 +30,7 @@ const Contact = () => {
             <a href="mailto:stapletonin@g.cofc.edu" target="_blank" rel="noreferrer">Send an email</a>
           </article>
           <article className="contact__option">
-            <RiMessengerLine className='contact__option-icon'/>
+            <AiOutlinePhone className='contact__option-icon'/>
             <h4>Phone</h4>
             <h5>(603) 866-6567</h5>
             <a href="tel:603-866-6567" target="_blank" rel="noreferrer">Call</a>

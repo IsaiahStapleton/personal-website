@@ -46,6 +46,7 @@
     flex-direction: column;
     gap: 1.2rem;
     align-items: center;
+    padding-bottom: 10rem;
   }
   
   input,
@@ -64,6 +65,7 @@
     .container.contact__container {
       grid-template-columns: 1fr;
       gap: 2rem;
+      padding-bottom: 20rem;
     }
   }
   
